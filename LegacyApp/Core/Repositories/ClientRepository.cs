@@ -40,7 +40,9 @@ public class ClientRepository : IClientRepository
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occurred while fetching the client: {ex.Message}");
+                // BURADA LOGLAMA OLSA DAHA YAXSI OLAR...
+
+                Console.WriteLine($"ERROR DETAIL: {ex.Message}");
                 throw;
             }
         }

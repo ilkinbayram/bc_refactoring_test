@@ -2,9 +2,6 @@
 
 namespace LegacyApp.Core.Resources.ValueObjects;
 
-/// <summary>
-/// 
-/// </summary>
 public class ClientStatus : ValueObject
 {
     public string Value { get; } = default!;

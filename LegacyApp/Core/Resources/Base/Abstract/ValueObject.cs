@@ -2,9 +2,6 @@
 
 namespace LegacyApp.Core.Resources.Base.Abstract;
 
-/// <summary>
-/// 
-/// </summary>
 public abstract class ValueObject
 {
     protected static bool EqualOperator(ValueObject? left, ValueObject? right)
